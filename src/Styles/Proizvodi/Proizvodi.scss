@@ -1,0 +1,83 @@
+.ProductPage__imgContainer img {
+  width: 100%;
+}
+
+.ProductPage__videoOptionsContainer {
+  display: flex;
+  justify-content: space-around;
+  img {
+    width: 450px;
+    margin: 20px 0;
+  }
+}
+
+.ProductPage__optionsContainer {
+  padding-top: 80px;
+  width: 100%;
+}
+
+.ProductPage__materialContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.ProductPage__material {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  height: 500px;
+  width: 300px;
+  text-align: justify;
+  line-height: 22px;
+}
+
+.ProductPage__Line {
+  height: 2px;
+  width: 300px;
+  background-color: yellow;
+}
+
+.ProductPage__profiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  gap: 50px;
+
+  .ProductPage__panelContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    .ProductPage__profileInfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    .ProductPage__profileImgContainer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+
+      img {
+        width: 150px;
+        transition: 0.5s ease-in-out;
+        border: 1px solid black;
+        &:hover {
+          box-shadow: 5px 5px 15px 5px #000000;
+          transform: scale(1.05);
+          transition: 0.5s ease-in-out;
+        }
+      }
+    }
+  }
+}

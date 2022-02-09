@@ -1,0 +1,13 @@
+.AppLang {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.AppLang__containerFirst {
+  display: flex;
+}
+
+.AppLang__right {
+  position: relative;
+}/*# sourceMappingURL=AppLang.css.map */

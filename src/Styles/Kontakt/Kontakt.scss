@@ -1,0 +1,74 @@
+.Kontakt {
+  color: #3e4444;
+}
+
+.Kontakt__container > img {
+  width: 100%;
+}
+
+.Kontakt__info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Kontakt__infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Kontakt__infoLogo {
+  display: flex;
+  gap: 10px;
+}
+
+.Kontakt__infoLogo img {
+  height: 150px;
+}
+
+.Kontakt__icon {
+  display: flex;
+  width: 150px;
+  gap: 30px;
+  align-items: center;
+}
+
+.Kontakt__phoneEmail {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  p,
+  a {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #272727;
+    cursor: pointer;
+    border-bottom: 1px solid gold;
+    transition: 0.5s ease-in-out;
+  }
+  p:hover,
+  a:hover {
+    opacity: 0.5;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+.Kontakt__radnoVremeConatiner {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  letter-spacing: 1px;
+}
+
+.Kontakt__radnoVremeDays {
+  display: flex;
+  gap: 5px;
+}
+.Kontakt__radnoVremeDays p:nth-child(odd) {
+  width: 100px;
+}

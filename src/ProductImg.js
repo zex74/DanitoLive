@@ -1,0 +1,40 @@
+const IMAGE = {
+  pvcProzor1CoverImg: require("./Img/ImgProduct/ImgPageProduct/WindowImg1.jpg").default,
+  pvcProzor2overImg: require("./Img/ImgProduct/ImgPageProduct/WindowImg2.jpg").default,
+  pvcProzor3CoverImg: require("./Img/ImgProduct/ImgPageProduct/WindowImg3.jpg").default,
+  pvcProzor4CoverImg: require("./Img/ImgProduct/ImgPageProduct/WindowImg4.jpg").default,
+  pvcProzor5CoverImg: require("./Img/ImgProduct/ImgPageProduct/WindowImg5.jpg").default,
+  drveniProzor1CoverImg: require("./Img/ImgProduct/ImgPageProduct/WindowImg6.jpg").default,
+  drvoAluminiumProzor1CoverImg: require("./Img/ImgProduct/ImgPageProduct/WindowImg7.jpg").default,
+  aluminiumProzor1CoverImg: require("./Img/ImgProduct/ImgPageProduct/WindowImg8.jpg").default,
+  aluminiumProzor2CoverImg: require("./Img/ImgProduct/ImgPageProduct/WindowImg9.jpg").default,
+  aluminiumProzor3CoverImg: require("./Img/ImgProduct/ImgPageProduct/WindowImg10.jpg").default,
+  aluminiumProzor4CoverImg: require("./Img/ImgProduct/ImgPageProduct/WindowImg11.jpg").default,
+  ulaznaVrataCoverImg: require("./Img/ImgProduct/ImgPageProduct/DoorImg1.jpg").default,
+  pregradnaVrataCoverImg: require("./Img/ImgProduct/ImgPageProduct/DoorImg2.jpg").default,
+  vrataHladanProfilCoverImg: require("./Img/ImgProduct/ImgPageProduct/DoorImg4.jpg").default,
+  vrataProfilTermoCoverImg: require("./Img/ImgProduct/ImgPageProduct/DoorImg5.jpg").default,
+  vrataSkrivenoKriloCoverImg: require("./Img/ImgProduct/ImgPageProduct/DoorImg6.jpg").default,
+
+  pvcRoletne1Img: require("./Img/ImgProduct/ImgPageProduct/Roletne1.jpg").default,
+  pvcRoletne2Img: require("./Img/ImgProduct/ImgPageProduct/Roletne2.jpg").default,
+  spoljneRoletneImg: require("./Img/ImgProduct/ImgPageProduct/Roletne3.jpg").default,
+
+  unutrasnjeRoletneImg: require("./Img/ImgProduct/ImgPageProduct/Fasade1.jpg").default,
+  podvasadneRoletneImg: require("./Img/ImgProduct/ImgPageProduct/Fasade2.jpg").default,
+
+  FunderFasade: require("./Img/ImgProduct/ImgPageProduct/TerasniSistemi1.jpg").default,
+  VentilFasade: require("./Img/ImgProduct/ImgPageProduct/TerasniSistemi2.jpg").default,
+  strukovna: require("./Img/ImgProduct/ImgPageProduct/TerasniSistemi3.jpg").default,
+  standardna: require("./Img/ImgProduct/ImgPageProduct/TerasniSistemi4.jpg").default,
+  granit: require("./Img/ImgProduct/ImgPageProduct/TerasniSistemi5.jpg").default,
+  pvcVekaSlide: require("./Img/ImgProduct/ImgPageProduct/TerasniSistemi6.jpg").default,
+  aluUltraGlide: require("./Img/ImgProduct/ImgPageProduct/TerasniSistemi7.jpg").default,
+  pvcVekaSoft: require("./Img/ImgProduct/ImgPageProduct/TerasniSistemi8.jpg").default,
+  aluVisoglide: require("./Img/ImgProduct/ImgPageProduct/TerasniSistemi9.jpg").default,
+  pvcSmatiaM9800: require("./Img/ImgProduct/ImgPageProduct/TerasniSistemi10.jpg").default,
+  pvcSmatiaM1980: require("./Img/ImgProduct/ImgPageProduct/TerasniSistemi11.jpg").default,
+  panoramaAliplast: require("./Img/ImgProduct/ImgPageProduct/TerasniSistemi12.jpg").default,
+};
+
+export default IMAGE;

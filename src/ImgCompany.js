@@ -1,0 +1,30 @@
+const Company = {
+  company1: [
+    require("./Img/Company/2.jpg").default,
+    require("./Img/Company/3.jpg").default,
+    require("./Img/Company/4.jpg").default,
+    require("./Img/Company/5.jpg").default,
+    require("./Img/Company/6.jpg").default,
+    require("./Img/Company/7.jpg").default,
+    require("./Img/Company/8.jpg").default,
+    require("./Img/Company/9.jpg").default,
+    require("./Img/Company/10.jpg").default,
+    require("./Img/Company/11.jpg").default,
+    require("./Img/Company/12.jpg").default,
+    require("./Img/Company/13.jpg").default,
+    require("./Img/Company/14.jpg").default,
+    require("./Img/Company/15.jpg").default,
+    require("./Img/Company/16.jpg").default,
+    require("./Img/Company/17.jpg").default,
+    require("./Img/Company/18.jpg").default,
+    require("./Img/Company/19.jpg").default,
+    require("./Img/Company/20.jpg").default,
+    require("./Img/Company/21.jpg").default,
+    require("./Img/Company/22.jpg").default,
+    require("./Img/Company/23.jpg").default,
+    require("./Img/Company/24.jpg").default,
+    require("./Img/Company/25.jpg").default,
+  ],
+};
+
+export default Company;

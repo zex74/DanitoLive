@@ -1,0 +1,104 @@
+.ProductWindow__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  position: relative;
+  button,
+  a {
+    letter-spacing: 2px;
+  }
+}
+
+.ProductWindow__product {
+  position: relative;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.ProductWindow__product img {
+  width: 100%;
+}
+
+.ProductWindow__ButtonsContainer {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s;
+  gap: 10px;
+  .ProductWindow__Buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .buttonOpen {
+      border-bottom: #fed542 2px solid;
+    }
+    .ProductWindow__ButtonsSecond {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      a {
+        font-size: 14px;
+        font-weight: normal;
+        border: none;
+        letter-spacing: 2px;
+        height: 100%;
+        transition: 0.5s ease-in-out;
+        border: 2px solid transparent;
+        &:hover {
+          border-bottom: 2px #fed542 solid;
+        }
+      }
+    }
+  }
+}
+
+.ProductWindow__ButtonsContainer:hover {
+  opacity: 1;
+}
+
+.ProductWindow__ButtonsContainer button {
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  color: white;
+  width: 250px;
+  height: 50px;
+  font-weight: 400;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.ProductWindow__ButtonsContainer button:hover {
+  border: 1px solid #fed542;
+}
+
+.ProductWindow__productHeaders {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80px;
+}
+
+.ProductWindow__productHeaders p {
+  letter-spacing: 1px;
+  font-size: 22px;
+}

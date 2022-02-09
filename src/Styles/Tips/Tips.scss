@@ -1,0 +1,46 @@
+.Tips {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 50px 0;
+  background-color: #272727;
+}
+
+.Tips h3,
+.Tips p {
+  padding: 10px 0;
+}
+
+.Tips__line {
+  height: 2px;
+  width: 100%;
+  background-color: yellow;
+}
+
+.Tips__moreDate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+.Tips__moreDate a {
+  text-decoration: none;
+  border: 2px solid yellow;
+  padding: 4px 20px;
+  color: black;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.Tips__moreDate a:hover {
+  opacity: 0.8;
+}
+
+.Tips__moreDate p {
+  background-color: #272727;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}

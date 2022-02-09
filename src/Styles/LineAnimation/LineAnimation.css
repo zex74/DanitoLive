@@ -1,0 +1,43 @@
+.LineAnimation {
+  background-color: #272727;
+  position: relative;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LineAnimation__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: 2s ease-in-out;
+}
+
+.LineAnimation__headingVidible {
+  color: white;
+  transition: 0.5s;
+  text-align: center;
+  font-size: 28px;
+}
+
+.LineAnimation__headingHiden {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.LineAnimation__lineVisible {
+  background: #f7fb3f;
+  background: radial-gradient(circle, #f7fb3f 0%, #fefefe 50%);
+  width: 600px;
+  height: 2px;
+  transition: 0.5s;
+}
+
+.LineAnimation__lineHiden {
+  background-color: white;
+  width: 32%;
+  transition: 0.5s;
+}/*# sourceMappingURL=LineAnimation.css.map */

@@ -1,0 +1,33 @@
+.Footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0;
+  background: white;
+  color: #272727;
+
+  .Kontakt__infoContainer {
+    gap: 30px;
+    .Kontakt__phoneEmail {
+      gap: 15px;
+      p,
+      a {
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: #272727;
+        cursor: pointer;
+        border-bottom: 1px solid gold;
+        transition: 0.5s ease-in-out;
+      }
+      p:hover,
+      a:hover {
+        opacity: 0.5;
+        transition: 0.5s ease-in-out;
+      }
+    }
+  }
+
+  .Kontakt__radnoVreme {
+    letter-spacing: 1px;
+  }
+}

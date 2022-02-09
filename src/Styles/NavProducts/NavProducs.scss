@@ -1,0 +1,80 @@
+.Nav__productsHiden {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: sticky;
+  top: 60px;
+  height: 100%;
+  gap: 20px;
+  width: 0;
+  transition: 0.5s;
+  opacity: 0;
+  p {
+    letter-spacing: 1px;
+  }
+}
+
+.Nav__productsVisible {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: sticky;
+  top: 60px;
+  height: 100%;
+  gap: 20px;
+  transition: 0.5s;
+  width: 300px;
+  p {
+    letter-spacing: 1px;
+  }
+}
+
+.Nav__searchContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeff0;
+}
+
+.Nav__search {
+  display: flex;
+  flex-direction: row;
+  background-color: #eeeff0;
+  padding: 10px 35px;
+  height: 75px;
+  align-items: center;
+  justify-content: start;
+  transition: 0.5s;
+  gap: 5px;
+  width: 300px;
+  font-weight: 500;
+}
+
+.Nav__productsSelected {
+  display: flex;
+  height: 92px;
+  background-color: #eeeff0;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  font-weight: 500;
+}
+
+.Nav__productsSelectedSvg {
+  cursor: pointer;
+  transition: 0.5s !important;
+}
+.Nav__productsSelectedSvg:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.Nav__productsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  gap: 10px;
+}
+
+.Nav__productsContainer a {
+  text-decoration: none;
+}

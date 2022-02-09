@@ -1,0 +1,31 @@
+.Footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0;
+  background: white;
+  color: #272727;
+}
+.Footer .Kontakt__infoContainer {
+  gap: 30px;
+}
+.Footer .Kontakt__infoContainer .Kontakt__phoneEmail {
+  gap: 15px;
+}
+.Footer .Kontakt__infoContainer .Kontakt__phoneEmail p,
+.Footer .Kontakt__infoContainer .Kontakt__phoneEmail a {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #272727;
+  cursor: pointer;
+  border-bottom: 1px solid gold;
+  transition: 0.5s ease-in-out;
+}
+.Footer .Kontakt__infoContainer .Kontakt__phoneEmail p:hover,
+.Footer .Kontakt__infoContainer .Kontakt__phoneEmail a:hover {
+  opacity: 0.5;
+  transition: 0.5s ease-in-out;
+}
+.Footer .Kontakt__radnoVreme {
+  letter-spacing: 1px;
+}/*# sourceMappingURL=Footer.css.map */

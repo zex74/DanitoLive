@@ -1,0 +1,55 @@
+.Inspiration__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 60px 0;
+  letter-spacing: 1px;
+}
+
+.Inspiration__containerImg {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.Inspiration__containerImg img {
+  width: 100%;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.Inspiration__containerImg {
+  font-size: 22px;
+}
+
+.Inspiration__containerImg {
+  opacity: 1;
+}
+
+.Inspiration__containerImg div {
+  background-color: black;
+  height: 2px;
+  width: 50px;
+  margin: auto;
+  transition: 0.5s;
+  opacity: 0.3;
+}
+
+.Inspiration__containerImg:hover > img {
+  opacity: 1;
+}
+
+.Inspiration__containerImg:hover > p {
+  opacity: 0.5;
+}
+
+.Inspiration__containerImg:hover > div {
+  width: 250px;
+  height: 2px;
+  background: #f7fb3f;
+  opacity: 1;
+}/*# sourceMappingURL=Inspiration.css.map */

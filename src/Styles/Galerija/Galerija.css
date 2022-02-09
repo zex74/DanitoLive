@@ -1,0 +1,49 @@
+.Galerija__container img {
+  width: 100%;
+}
+
+.Galerija__objekti {
+  padding: 20px 0;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+}
+
+.Galerija__objekat {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+  gap: 10px;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+.Galerija__objekat .Images .Images__rowImg {
+  width: 250px;
+  max-height: 150px;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+}
+
+.Galerija__objekatInformacije {
+  text-align: center;
+}
+.Galerija__objekatInformacije a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.Galerija__objekatInformacije .Galerija__line {
+  margin-top: 10px;
+  height: 1px;
+  background-color: yellow;
+}/*# sourceMappingURL=Galerija.css.map */

@@ -1,0 +1,25 @@
+const IMAGESprofile = [
+  require("./Img/Profili/ProfilVrata1.png").default,
+  require("./Img/Profili/ProfilVrata2.png").default,
+  require("./Img/Profili/ProfilVrata3.png").default,
+  require("./Img/Profili/ProfilVrata4.png").default,
+  require("./Img/Profili/ProfilVrata5.png").default,
+  require("./Img/Profili/ProfilVrata6.png").default,
+  require("./Img/Profili/ProfilVrata7.png").default,
+  require("./Img/Profili/ProfilVrata8.png").default,
+  require("./Img/Profili/ProfilVrata9.png").default,
+  require("./Img/Profili/ProfilVrata10.png").default,
+  require("./Img/Profili/ProfilVrata11.png").default,
+  require("./Img/Profili/ProfilVrata12.png").default,
+  require("./Img/Profili/ProfilVrata13.png").default,
+  require("./Img/Profili/ProfilVrata14.png").default,
+  require("./Img/Profili/ProfilVrata15.png").default,
+  require("./Img/Profili/ProfilVrata16.png").default,
+  require("./Img/Profili/ProfilVrata17.png").default,
+  require("./Img/Profili/ProfilVrata18.png").default,
+  require("./Img/Profili/ProfilVrata19.png").default,
+  require("./Img/Profili/ProfilVrata20.png").default,
+  require("./Img/Profili/ProfilVrata21.png").default,
+];
+
+export default IMAGESprofile;

@@ -1,0 +1,19 @@
+.options__colorContainer {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.options__colorContainer .options__colors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.options__colorContainer img {
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-shadow: 3px 5px 15px -3px #000000;
+}/*# sourceMappingURL=Options.css.map */

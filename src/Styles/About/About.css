@@ -1,0 +1,51 @@
+.About {
+  color: #3e4444;
+}
+
+.About__coverImg {
+  width: 100%;
+  height: 100vh;
+}
+
+.About__headerText {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 23px;
+  font-style: italic;
+  opacity: 0.5;
+}
+
+.About__companyProfile {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.About__aboutDanito {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 0 50px;
+  margin: auto;
+}
+
+.About__aboutDanito img {
+  width: 150px;
+  cursor: pointer;
+}
+
+.About__companyInfo {
+  text-align: justify;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.About__companyInfo h2 {
+  padding-bottom: 20px;
+  font-size: 28px;
+}/*# sourceMappingURL=About.css.map */

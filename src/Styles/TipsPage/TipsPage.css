@@ -1,0 +1,29 @@
+.TipsPage__imgContainer img {
+  width: 100%;
+}
+
+.TipsPage__articleText {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  gap: 50px;
+}
+
+.TipsPage__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.TipsPage__datePosted {
+  background-color: #272727;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}/*# sourceMappingURL=TipsPage.css.map */
